@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Site</title>
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- header -->
+        <div class="row">
+            <header>
+                <a href="" id="logo">
+                    <div>
+                        <span id="e">e</span>
+                        <span id="s">S</span>
+                        <span id="t">t</span>
+                        <span id="o">o</span>
+                        <span id="r">r</span>
+                        <span id="e">e</span>
+                    </div>
+                </a>
+
+                <nav>
+                    <ul id="navbar">
+                        <li> <a href="/index.html">Home</a> </li>
+                        <li> <a href="/sitePages/shop.html">Shop</a> </li>
+                        <li> <a href="/sitePages/contact.html">Contact</a> </li>
+                        <li id="cart-logo">
+                            <a href="/sitePages/cart.html" class="active">
+                                <i class="far fa-shopping-bag"></i>
+                            </a>
+                        </li>
+
+                        <a href="#" id="close"> <i class="far fa-times"></i> </a>
+                    </ul>
+                </nav>
+                <div id="mobile">
+                    <a href="/sitePages/cart.html"> <i class="far fa-shopping-bag"></i> </a>
+                    <i id="bar" class="fas fa-outdent"></i>
+                </div>
+            </header>
+        </div>
+
+        <!-- hero -->
+        <div class="row contact" id="page-header">
+            <h2>#cart</h2>
+            <p>Add your coupon code & SAVE upto 70%!</p>
+        </div>
+
+        <!-- cart -->
+        <div class="row section-p1" id="cart">
+            <table width="100%">
+                <thead>
+                    <tr>
+                        <td>Remove</td>
+                        <td>Image</td>
+                        <td>Product</td>
+                        <td>Price</td>
+                        <td>Quantity</td>
+                        <td>Subtotal</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                        <td><img src="/assets/products/f1.jpg"></td>
+                        <td>Cartoon Astronaut T-Shirts</td>
+                        <td>$100</td>
+                        <td><input type="number" value="1"></td>
+                        <td>$100</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                        <td><img src="/assets/products/f2.jpg"></td>
+                        <td>Cartoon Astronaut T-Shirts</td>
+                        <td>$100</td>
+                        <td><input type="number" value="1"></td>
+                        <td>$100</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                        <td><img src="/assets/products/f3.jpg"></td>
+                        <td>Cartoon Astronaut T-Shirts</td>
+                        <td>$100</td>
+                        <td><input type="number" value="1"></td>
+                        <td>$100</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="cart-add" class="section-p1">
+            <div id="coupon">
+                <h3>Apply Coupon</h3>
+                <form>
+                    <input type="text" placeholder="Enter Your Coupon">
+                    <button type="submit" class="normal">Apply</button>
+                </form>
+            </div>
+            <div id="subtotal">
+                <h3>Cart Subtotal</h3>
+                <table>
+                    <tr>
+                        <td>Cart Subtotal</td>
+                        <td>$ 300</td>
+                    </tr>
+                    <tr>
+                        <td>Shipping</td>
+                        <td>Free</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Total</strong></td>
+                        <td><strong>$ 300</strong></td>
+                    </tr>
+                </table>
+                <button class="normal">Proceed to checkout</button>
+            </div>
+        </div>
+
+        <!--footer-->
+        <div class="row">
+            <footer class="section-p1">
+                <div class="col">
+                    <a href="" id="logo">
+                        <div>
+                            <span id="e">e</span>
+                            <span id="s">S</span>
+                            <span id="t">t</span>
+                            <span id="o">o</span>
+                            <span id="r">r</span>
+                            <span id="e">e</span>
+                        </div>
+                    </a>
+                    <h4>Contact</h4>
+                    <p>
+                        <strong>Address : </strong>
+                        Lorem ipsum dolor, sit amet consectetur,adipisicing elit.
+                    </p>
+                    <p>
+                        <strong>Phone : </strong>
+                        +91 9876543210
+                    </p>
+                    <div class="follow">
+                        <h4>Follow Us</h4>
+                        <div class="icon">
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-youtube"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <h4>About</h4>
+                    <a href="#">About Us</a>
+                    <a href="#">Delivery Information</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms & Conditions</a>
+                    <a href="#">Contact Us</a>
+                </div>
+
+                <div class="col">
+                    <h4>My Account</h4>
+                    <a href="#">Sign In </a>
+                    <a href="#">View Cart</a>
+                    <a href="#">My Wishlist</a>
+                    <a href="#">Track My Order</a>
+                    <a href="#">Help</a>
+                </div>
+            </footer>
+            <div class="copyright">
+                <p>&copy; 2022, park Tech - Ecommerce Template.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="/js/index.js"></script>
+</body>
+
+</html>
